@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-duplicar_cola/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-duplicar_cola/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-duplicar_cola/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-duplicar_cola/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-duplicar_cola/Queue.h
+

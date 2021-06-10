@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/Stack.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/Exceptions.h
+iostream
+-
+iomanip
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/TreeMap.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/Exceptions.h
+Stack.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/Stack.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/main.cpp
+sstream
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+TreeMap.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_actualizacion/TreeMap.h
+

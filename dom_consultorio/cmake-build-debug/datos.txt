@@ -1,0 +1,33 @@
+12
+nuevoMedico Hernandez
+nuevoMedico Alvarez
+pideConsulta Ana Alvarez 16 12:30
+pideConsulta Antonio Alvarez 16 11:45
+pideConsulta Alvaro Alvarez 17 10:00
+pideConsulta Alba Alvarez 17 10:15
+pideConsulta Anacleto Alvarez 17 10:55
+listaPacientes Alvarez 16
+siguientePaciente Alvarez
+atiendeConsulta Alvarez
+listaPacientes Alvarez 16
+listaPacientes Alvarez 17
+6
+nuevoMedico Hernandez
+pideConsulta Alvarez Ana 16 12:30
+pideConsulta Helena Hernandez 17 10:00
+atiendeConsulta Hernandez
+listaPacientes Hernandez 17
+atiendeConsulta Hernandez
+11
+nuevoMedico Duran
+pideConsulta Ana Duran 18 23:59
+listaPacientes Duran 18
+pideConsulta Midnight Duran 18 00:00
+pideConsulta Ana Duran 18 00:00
+listaPacientes Duran 18
+siguientePaciente Duran
+atiendeConsulta Duran
+listaPacientes Duran 18
+atiendeConsulta Duran
+atiendeConsulta Duran
+

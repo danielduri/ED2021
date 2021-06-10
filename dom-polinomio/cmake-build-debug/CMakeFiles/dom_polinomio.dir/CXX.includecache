@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/Polinomio.cpp
+Polinomio.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/Polinomio.h
+cmath
+-
+algorithm
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/Polinomio.h
+vector
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/main.cpp
+iostream
+-
+fstream
+-
+Polinomio.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/Polinomio.h
+

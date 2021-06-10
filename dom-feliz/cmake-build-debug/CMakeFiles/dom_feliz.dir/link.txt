@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/dom_feliz.dir/main.cpp.o CMakeFiles/dom_feliz.dir/SetOfInts3.cpp.o  -o dom_feliz 

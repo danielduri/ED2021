@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/Stack.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/Exceptions.h
+iostream
+-
+iomanip
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/TreeSet.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/Exceptions.h
+Stack.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/Stack.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+TreeSet.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-count-interval/TreeSet.h
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-afortunado/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-afortunado/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-afortunado/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-afortunado/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-afortunado/Queue.h
+

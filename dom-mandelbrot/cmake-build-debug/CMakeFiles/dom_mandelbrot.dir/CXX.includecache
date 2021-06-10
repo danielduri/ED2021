@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-mandelbrot/Complejo.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-mandelbrot/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Complejo.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-mandelbrot/Complejo.h
+

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Arbin.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Exceptions.h
+List.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/List.h
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Queue.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/List.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Exceptions.h
+cassert
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Arbin.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-excursionistas/Arbin.h
+

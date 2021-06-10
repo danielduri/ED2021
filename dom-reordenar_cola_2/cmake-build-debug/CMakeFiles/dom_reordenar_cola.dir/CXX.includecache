@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-reordenar_cola_2/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-reordenar_cola_2/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-reordenar_cola_2/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-reordenar_cola_2/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+algorithm
+-
+vector
+-
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-reordenar_cola_2/Queue.h
+

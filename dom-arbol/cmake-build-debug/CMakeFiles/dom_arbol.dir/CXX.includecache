@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Arbin.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Exceptions.h
+List.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/List.h
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Queue.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/List.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Exceptions.h
+cassert
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Arbin.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-arbol/Arbin.h
+

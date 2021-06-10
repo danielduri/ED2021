@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-setgeneric/Error.h
+string
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-setgeneric/Set.h
+iostream
+-
+Error.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-setgeneric/Error.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-setgeneric/main.cpp
+iostream
+-
+Set.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-setgeneric/Set.h
+iomanip
+-
+fstream
+-
+

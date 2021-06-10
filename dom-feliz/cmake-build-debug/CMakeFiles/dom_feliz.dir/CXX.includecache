@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/Error.h
+string
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/SetOfInts3.cpp
+iostream
+-
+Error.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/Error.h
+SetOfInts3.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/SetOfInts3.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/SetOfInts3.h
+Error.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/Error.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+SetOfInts3.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLionProjects/dom-feliz/SetOfInts3.h
+

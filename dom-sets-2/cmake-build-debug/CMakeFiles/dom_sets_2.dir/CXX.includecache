@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielduri/CLionProjects/dom-sets-2/Error.h
+string
+-
+
+/Users/danielduri/CLionProjects/dom-sets-2/SetOfInts3.h
+Error.h
+/Users/danielduri/CLionProjects/dom-sets-2/Error.h
+
+/Users/danielduri/CLionProjects/dom-sets-2/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+SetOfInts3.h
+/Users/danielduri/CLionProjects/dom-sets-2/SetOfInts3.h
+climits
+-
+

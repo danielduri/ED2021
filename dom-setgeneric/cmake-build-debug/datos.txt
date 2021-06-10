@@ -1,0 +1,17 @@
+P
+3
+abcd abcd abc ab a FIN
+N
+3
+1 8 3 14 5 -1
+P
+2
+maria luis marta juan alberto FIN
+N
+3
+1 2 3 4 5 6 6 6 -1
+N
+3
+5 4 3 2 1 -1
+
+

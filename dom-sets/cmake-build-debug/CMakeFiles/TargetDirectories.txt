@@ -1,0 +1,3 @@
+/Users/danielduri/CLionProjects/dom-sets/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/danielduri/CLionProjects/dom-sets/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/danielduri/CLionProjects/dom-sets/cmake-build-debug/CMakeFiles/dom_sets.dir

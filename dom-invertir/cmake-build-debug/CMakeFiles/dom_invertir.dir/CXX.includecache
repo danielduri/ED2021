@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielduri/Uni/ED/CLionProjects/dom-invertir/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Users/danielduri/Uni/ED/CLionProjects/dom-invertir/Queue.h
+Exceptions.h
+/Users/danielduri/Uni/ED/CLionProjects/dom-invertir/Exceptions.h
+iostream
+-
+
+/Users/danielduri/Uni/ED/CLionProjects/dom-invertir/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Queue.h
+/Users/danielduri/Uni/ED/CLionProjects/dom-invertir/Queue.h
+

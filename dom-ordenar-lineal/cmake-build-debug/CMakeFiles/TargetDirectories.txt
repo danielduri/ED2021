@@ -1,3 +1,3 @@
-/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/dom_ordenar_lineal.dir
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-ordenar-lineal/cmake-build-debug/CMakeFiles/dom_ordenar_lineal.dir

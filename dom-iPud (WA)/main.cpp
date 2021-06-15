@@ -96,11 +96,17 @@ class iPud {
             return "";
         }
         song next = *playlist.rbegin();
+
         this->playlist.pop_back();
-        this->totalPlaylist -= songs[next].getDuration();
-        this->recentSongs.push_front(next);
         this->songs[next].setPlaylistLocation(playlist.end());
+
+        this->recentSongs.push_front(next);
+        if(this->songs[next].getRecentLocation()!=recentSongs.end()){
+            this->recentSongs.erase(this->songs[next].getRecentLocation());
+        }
         this->songs[next].setRecentLocation(recentSongs.begin());
+
+        this->totalPlaylist -= songs[next].getDuration();
         return next;
     }
 

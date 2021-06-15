@@ -17,13 +17,21 @@ FIN
 play
 current
 FIN
-addSong Zitti Maneskin 180
-addSong Voila Pravi 180
+addSong Zitti Maneskin 100
+addSong Voila Pravi 100
+deleteSong Diablo
+addSong Univers Gjons 100
+addToPlaylist Zitti
+play
+addToPlaylist Voila
+addToPlaylist Univers
+recent 1
 addToPlaylist Zitti
 addToPlaylist Voila
 totalTime
 play
-deleteSong Zitti
+play
+play
 play
 totalTime
 recent 5

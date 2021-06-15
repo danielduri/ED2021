@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/Polinomio.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/cmake-build-debug/CMakeFiles/dom_polinomio.dir/Polinomio.cpp.o"
-  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/main.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-polinomio/cmake-build-debug/CMakeFiles/dom_polinomio.dir/main.cpp.o"
+  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-polinomio/Polinomio.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-polinomio/cmake-build-debug/CMakeFiles/dom_polinomio.dir/Polinomio.cpp.o"
+  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-polinomio/main.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-polinomio/cmake-build-debug/CMakeFiles/dom_polinomio.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

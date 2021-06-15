@@ -3,28 +3,26 @@
 //
 
 #include "Polinomio.h"
-#include <cmath>
-#include <algorithm>
 
-Polinomio::Polinomio() {
-
-}
+Polinomio::Polinomio() = default;
 
 void Polinomio::addMonomio(const int &coeficiente, const int &exponente) {
-    std::vector<int> par(2);
-    par[0]=coeficiente;
-    par[1]=exponente;
-    monomios.push_back(par);
+    std::pair<int, int> monomio = std::pair<int, int>(coeficiente, exponente);
+    auto it = monomios.begin();
+    while(it!=monomios.end() && it->second<exponente){
+        it++;
+    }
+    monomios.insert(it, monomio);
 }
 
 int Polinomio::evaluar(const int &valor) const{
     int result=0;
-    for (int i = 0; i < monomios.size(); ++i) {
-        result=result+monomios[i][0]*pow(valor, monomios[i][1]);
+    for (const auto & monomio : monomios) {
+        int num=1;
+        for (int i = 0; i < monomio.second; ++i) {
+            num=num*valor;
+        }
+        result=result+monomio.first*num;
     }
     return result;
-}
-
-void Polinomio::sort() {
-    std::sort(monomios[1].begin(), monomios[1].end());
 }

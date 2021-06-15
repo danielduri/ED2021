@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_diametro/bintree.h
+stdexcept
+-
+algorithm
+-
+memory
+-
+iomanip
+-
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_diametro/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+bintree.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_diametro/bintree.h
+

@@ -10,8 +10,7 @@
 
 class Polinomio {
 private:
-    std::vector<std::vector<int>> monomios;
-
+    std::vector<std::pair<int, int>> monomios;
 public:
     Polinomio();
     void addMonomio(int const & coeficiente, int const & exponente);

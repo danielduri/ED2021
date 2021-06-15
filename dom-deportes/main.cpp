@@ -1,5 +1,5 @@
-// Nombre del alumno .....
-// Usuario del Juez ......
+//DANIEL DURAN RIVERO
+//C37
 
 
 #include <iostream>

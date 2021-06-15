@@ -19,9 +19,8 @@ using artist=string;
 using duration=int;
 
 class songData{
-    song Song;
     artist Artist;
-    duration Duration;
+    duration Duration{};
     list<song>::iterator playlistLocation;
     list<song>::iterator recentLocation;
 
@@ -29,8 +28,7 @@ class songData{
 public:
 
     songData()= default;
-    songData(song song, artist artist, duration duration) : Song(std::move(song)), Artist(std::move(artist)),
-                                                                          Duration(duration) {}
+    songData(artist artist, duration duration) : Artist(std::move(artist)), Duration(duration) {}
 
     const list<song>::iterator &getPlaylistLocation() const {
         return playlistLocation;
@@ -63,7 +61,7 @@ class iPud {
     public:
     void addSong(const song& S, const artist& A, const duration D){
         if(songs.find(S)==songs.end()){
-            this->songs[S] = songData(S, A, D);
+            this->songs[S] = songData(A, D);
             this->songs[S].setPlaylistLocation(playlist.end());
             this->songs[S].setRecentLocation(recentSongs.end());
         }else{
@@ -74,8 +72,8 @@ class iPud {
     void addToPlaylist(const song& S){
         if(this->songs.find(S)!=songs.end()){
             if(songs[S].getPlaylistLocation()==playlist.end()){
-                this->playlist.push_front(S);
-                this->songs[S].setPlaylistLocation(playlist.begin());
+                this->playlist.push_back(S);
+                this->songs[S].setPlaylistLocation(--playlist.end());
                 this->totalPlaylist+=songs[S].getDuration();
             }
         }else{
@@ -87,7 +85,7 @@ class iPud {
         if(playlist.empty()){
             throw domain_error("current");
         }
-        return *playlist.rbegin();
+        return *playlist.begin();
     }
 
     song play(){
@@ -95,9 +93,9 @@ class iPud {
             cout << "No hay canciones en la lista" << endl;
             return "";
         }
-        song next = *playlist.rbegin();
+        song next = *playlist.begin();
 
-        this->playlist.pop_back();
+        this->playlist.pop_front();
         this->songs[next].setPlaylistLocation(playlist.end());
 
         this->recentSongs.push_front(next);
@@ -118,9 +116,9 @@ class iPud {
         int count = 0;
         list<song> result;
 
-        auto it = recentSongs.rbegin();
-        while(it!=recentSongs.rend() && count<n){
-            result.push_front(*it);
+        auto it = recentSongs.begin();
+        while(it!=recentSongs.end() && count<n){
+            result.push_back(*it);
             it++;
             count++;
         }
@@ -139,10 +137,6 @@ class iPud {
             songs.erase(s);
         }
     }
-
-
-
-
 };
 
 
@@ -194,7 +188,7 @@ bool resuelveCaso() {
                 myiPud.deleteSong(S);
             }
         } catch (std::exception &e) {
-            cout << "ERROR " << e.what() << "\n";
+            cout << "ERROR " << comando << "\n";
         }
         cin >> comando;
     }

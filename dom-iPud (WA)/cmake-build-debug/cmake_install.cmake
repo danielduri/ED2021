@@ -1,4 +1,4 @@
-# Install script for directory: /Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)
+# Install script for directory: /Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

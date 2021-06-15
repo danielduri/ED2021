@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_consultorio
+# Install script for directory: /Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom_consultorio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom_consultorio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom_consultorio/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

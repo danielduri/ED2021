@@ -8,80 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug"/>
+				<Option working_dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug"/>
+				<Option working_dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug"/>
+				<Option working_dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dom_iPud">
-				<Option output="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug/dom_iPud" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug"/>
+				<Option output="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug/dom_iPud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 dom_iPud"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 dom_iPud"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dom_iPud/fast">
-				<Option output="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug/dom_iPud" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/cmake-build-debug"/>
+				<Option output="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug/dom_iPud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 dom_iPud/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/danielduri/Uni/ED/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 dom_iPud/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/Macintosh\ MHD/Users/Uni/ED/CLion\ Projects/ED2021/dom-iPud\ (WA)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/main.cpp">
+		<Unit filename="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/main.cpp">
 			<Option target="dom_iPud"/>
 		</Unit>
-		<Unit filename="/Users/danielduri/Uni/ED/ED2021/dom-iPud (WA)/CMakeLists.txt">
+		<Unit filename="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-iPud (WA)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

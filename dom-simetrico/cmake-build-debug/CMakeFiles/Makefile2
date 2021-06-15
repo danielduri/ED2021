@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico"
+CMAKE_SOURCE_DIR = "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/dom_simetrico.dir/clean
 CMakeFiles/dom_simetrico.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dom_simetrico.dir/build.make CMakeFiles/dom_simetrico.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dom_simetrico.dir/build.make CMakeFiles/dom_simetrico.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target dom_simetrico"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target dom_simetrico"
 .PHONY : CMakeFiles/dom_simetrico.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dom_simetrico.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dom_simetrico.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/dom_simetrico.dir/rule
 
 # Convenience name for target.

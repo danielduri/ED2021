@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/main.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-simetrico/cmake-build-debug/CMakeFiles/dom_simetrico.dir/main.cpp.o"
+  "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/main.cpp" "/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/ED2021/dom-simetrico/cmake-build-debug/CMakeFiles/dom_simetrico.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

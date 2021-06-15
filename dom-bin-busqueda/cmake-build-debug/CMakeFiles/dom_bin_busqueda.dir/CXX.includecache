@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Arbin.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Exceptions.h
+List.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/List.h
+Queue.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Queue.h
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Exceptions.h
+string
+-
+iosfwd
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/List.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Exceptions.h
+cassert
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Queue.h
+Exceptions.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Exceptions.h
+iostream
+-
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Arbin.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/Arbin.h
+List.h
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-bin-busqueda/List.h
+

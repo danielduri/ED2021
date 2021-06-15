@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/danielduri/Uni/ED/CLionProjects/dom-iPud/main.cpp
+iostream
+-
+stdexcept
+-
+fstream
+-
+utility
+-
+vector
+-
+map
+-
+unordered_map
+-
+list
+-
+queue
+-
+stack
+-
+set
+-
+

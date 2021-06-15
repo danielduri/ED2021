@@ -1,0 +1,31 @@
+addSong HumanTouch BruceSpringsteen 392
+addSong BornToRun BruceSpringsteen 270
+addToPlaylist BornToRun
+addToPlaylist HumanTouch
+totalTime
+play
+totalTime
+addSong LuckyTown BruceSpringsteen 207
+addToPlaylist LuckyTown
+play
+totalTime
+play
+deleteSong HumanTouch
+recent 2
+totalTime
+FIN
+play
+current
+FIN
+addSong Zitti Maneskin 180
+addSong Voila Pravi 180
+addToPlaylist Zitti
+addToPlaylist Voila
+totalTime
+play
+deleteSong Zitti
+play
+totalTime
+recent 5
+FIN
+

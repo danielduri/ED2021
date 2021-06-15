@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Macintosh MHD/Users/Uni/ED/CLion Projects/dom-deportes/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+vector
+-
+algorithm
+-
+
